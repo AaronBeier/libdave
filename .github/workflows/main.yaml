@@ -1,10 +1,6 @@
 name: Build and Test
 
-on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["**"]
+on: workflow_dispatch
 
 env:
   CMAKE_BUILD_PARALLEL_LEVEL: 3
